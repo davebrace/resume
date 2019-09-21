@@ -1,0 +1,2 @@
+yarn postcss -o main.css tailwind.css
+git add main.css
