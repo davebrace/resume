@@ -15,7 +15,7 @@
   </head>
   <body class="w-full font-sans bg-white">
     <div class="text-center mt-6">
-      <h1 class="font-bold text-4xl">Dave Brace</h1>
+      <h1 class="font-bold text-4xl print:text-3xl">Dave Brace</h1>
       <div>
         <a
           href="mailto:dave.brace@gmail.com"
@@ -23,20 +23,30 @@
           >dave.brace@gmail.com</a
         >
         <span> / </span>
-        <a href="https://github.com/davebrace" target="_blank">
+        <a
+          href="https://github.com/davebrace"
+          target="_blank"
+          class="print:hidden"
+        >
           <i class="fab fa-github text-blue-500 hover:text-blue-600 mx-1"></i>
         </a>
-        <span> / </span>
-        <a href="https://www.linkedin.com/in/davebrace/" target="_blank">
+        <span class="print:hidden"> / </span>
+        <a
+          href="https://www.linkedin.com/in/davebrace/"
+          target="_blank"
+          class="print:hidden"
+        >
           <i
             class="fab fa-linkedin-in text-blue-500 hover:text-blue-600 mx-1"
           ></i>
         </a>
-        <span> / </span>
+        <span class="print:hidden"> / </span>
         <span class="font-bold mx-1">Chicago, IL</span>
       </div>
     </div>
-    <div class="w-5/6 md:w-1/2 mx-auto my-12">
+    <div
+      class="w-5/6 md:w-1/2 print:w-full mx-auto my-12 print:mb-0 print:mt-8"
+    >
       <p class="mb-4">
         Hello 👋 - I'm a software engineer that enjoys building products and
         companies. I've spent the last eight years working at two startups. At
@@ -51,14 +61,14 @@
         done some iOS development as well. I enjoy working across all parts of
         the technology stack.
       </p>
-      <p class="mb-12">
+      <p class="mb-12 print:mb-8">
         My technical background is complemented by my entrepreneurial and
         leadership experience. I love to help my team tackle all types of
         business problems including sales, marketing and overall company
         strategy. I particularly enjoy speaking with and learning from customers
         as I belive its critical to the success of every company.
       </p>
-      <div class="mb-12">
+      <div class="mb-12 print:mb-8">
         <h2 class="text-2xl font-bold mb-1">
           <img
             src="images/detective-logo.png"
@@ -125,7 +135,7 @@
           </li>
         </ul>
       </div>
-      <div class="mb-12">
+      <div class="mb-12 print:mb-8">
         <h2 class="text-2xl font-bold mb-1">
           <img
             src="images/buzz-referrals-logo.png"
@@ -169,7 +179,7 @@
           </li>
         </ul>
       </div>
-      <div class="mb-12">
+      <div class="mb-12 print:mb-8">
         <h2 class="text-2xl font-bold mb-1">
           <img
             src="images/adage-technologies-logo.png"
@@ -203,7 +213,7 @@
           </li>
         </ul>
       </div>
-      <div class="mb-12">
+      <div class="mb-12 print:mb-8">
         <h2 class="text-2xl font-bold mb-1">
           <img
             src="images/catalyst-software-solutions-logo.png"
@@ -221,7 +231,7 @@
           building ASP.Net web applications for a variety of clients.
         </p>
       </div>
-      <div class="mb-12">
+      <div class="mb-12 print:mb-8">
         <h2 class="text-2xl font-bold mb-1">
           <img
             src="images/equitec-logo.png"
@@ -240,9 +250,9 @@
           support their trading operations.
         </p>
       </div>
-      <div class="mt-16">
+      <div class="mt-16 print:mt-12">
         <h2 class="text-3xl font-bold mb-2">Education</h2>
-        <div class="mb-12">
+        <div class="mb-12 print:mb-8">
           <h2 class="text-2xl font-bold mb-1">
             <img
               src="images/bc-logo.png"
@@ -269,13 +279,13 @@
           </p>
         </div>
       </div>
-      <div class="mt-16">
+      <div class="mt-16 print:mt-12">
         <h2 class="text-3xl font-bold mb-1">Side Projects</h2>
         <p class="mb-8">
           In order to expand my technical skillset and to keep learning, I've
           built a variety of side projects.
         </p>
-        <div class="mb-8">
+        <div class="mb-8 print:mb-6">
           <div class="mb-1">
             <h2 class="text-lg font-bold inline mr-1">CodeRequest.io</h2>
             <span class="text-gray-500"> / 2019 - Present</span>
@@ -291,7 +301,7 @@
             GitHub while recruiting engineers.
           </p>
         </div>
-        <div class="mb-8">
+        <div class="mb-8 print:mb-6">
           <div class="mb-1">
             <h2 class="text-lg font-bold inline mr-1">vim-testnav</h2>
             <span class="text-gray-500"> / 2016 - Present</span>
@@ -307,7 +317,7 @@
             production code.
           </p>
         </div>
-        <div class="mb-8">
+        <div class="mb-8 print:mb-6">
           <div class="mb-1">
             <h2 class="text-lg font-bold inline mr-1">Pack Draft</h2>
             <span class="text-gray-500"> / 2014 - 2015</span>
@@ -324,7 +334,7 @@
             about a year.
           </p>
         </div>
-        <div class="mb-8">
+        <div class="mb-8 print:mb-6">
           <div class="mb-1">
             <h2 class="mr-1">
               <img
